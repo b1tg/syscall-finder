@@ -1,6 +1,6 @@
 # syscall-finder
 
-Tind Windows syscall numbers from ntdll.dll
+Find Windows syscall numbers from ntdll.dll
 
 ```sh
 $ ./syscall-finder.exe NtAllocateVirtualMemory
