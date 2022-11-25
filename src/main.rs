@@ -15,7 +15,7 @@ fn main() {
     let mut rva = 0;
     for export in pe.exports {
         if export.name.unwrap() == func {
-            println!("{:?}", export);
+            // println!("{:?}", export);
             rva = export.rva;
         }
     }
